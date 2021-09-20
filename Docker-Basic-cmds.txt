@@ -1,0 +1,16 @@
+Basic Docker Commands
+
+List running containers - docker ps
+List Docker images in the machine - docker image (OR) docker image ls
+
+List Running (OR) Stopped containers - docker ps -a
+List Container IDRunning (OR) Stopped containers - docker ps -aq
+Test docker installation - docker run hello-world
+pull docker image - docker pull httpd - docker pull <image:version(tag)>
+docker start <imageID>
+docker stop <ContainerID>
+
+docker rmi -- remove image
+docker rmi -f --remove image using force flag
+
+login to the running container - docker exec -it <ContainerID> /bin/bash -- attaching a shell to it
